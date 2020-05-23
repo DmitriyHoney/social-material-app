@@ -1,0 +1,6 @@
+.section {
+    background-color: #fff;
+    padding: 25px;
+    width: 800px;
+    display: flex;
+}
