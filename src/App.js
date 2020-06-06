@@ -6,7 +6,7 @@ import "./App.scss";
 import Preview from "./components/common/Preview/Preview";
 import Header from "./components/Header/Header";
 import Sidebar from "./components/Sidebar/Sidebar";
-import Users from "./components/Users/Users";
+import UsersContainer from "./components/UsersContainer/UsersContainer";
 import Dialogs from "./components/Dialogs/Dialogs";
 import ProfileContainer from "./components/Profile/ProfileContainer";
 import LoginContainer from "./components/LoginContainer/LoginContainer";
@@ -45,7 +45,7 @@ class App extends React.PureComponent {
                 <Header isAuth={this.props.isAuth} login={this.props.login} logoutThunkCallback={this.props.logoutThunkCallback}/>
                 <Sidebar/>
                 <div className="content">
-                    <Route path={'/users'} render={() => <Users/>}/>
+                    <Route path={'/users'} render={() => <UsersContainer/>}/>
                     <Route path={'/dialogs'} render={() => <Dialogs/>}/>
                     <Route path={'/profile/:userId?'} render={() => <ProfileContainer isAuth={this.props.isAuth}/>}/>
                     <Route path={'/login'} render={() => <LoginContainer isAuth={this.props.isAuth}/>}/>

@@ -89,7 +89,7 @@ export const itsMeAC = bool => ({type: ITS_ME, bool}); //Установить д
 export const getCurrentUserDataThunkCreator = userId => async (dispatch, getState) => {
     let currentUserId = getState().authPage.userTechnicalData.id;
     let resultId =  Number(userId || currentUserId);
-    debugger;
+
     if (resultId === currentUserId) {
         dispatch(itsMeAC(true))
     } else {

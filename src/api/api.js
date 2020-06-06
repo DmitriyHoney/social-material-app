@@ -44,3 +44,20 @@ export const authApi = {
         return instance.delete(`/security/get-captcha-url`)
     }
 }
+
+
+export const usersApi = {
+    getUsersPage(pageNumber = 1, countUsers = 7, friend ) {
+        return instance.get(`users/?page=${pageNumber}&count=${countUsers}&friend=${friend}`)
+    },
+    getFollowStateOnUser(userId) {
+        return instance.get(`follow/${userId}`)
+    },
+    followOnUser(userId) {
+        return instance.post(`follow/${userId}`)
+    },
+    unFollowOnUser(userId) {
+        return instance.delete(`follow/${userId}`)
+    }
+   
+}
