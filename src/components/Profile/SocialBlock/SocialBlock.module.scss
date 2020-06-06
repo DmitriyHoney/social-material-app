@@ -1,0 +1,17 @@
+@import "../../../styles/variables";
+
+.section {
+    width: 100%;
+    background-color: $main-cl;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 25px 25px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    & li a {
+        color: #fff;
+        padding: 0px 25px;
+    }
+}

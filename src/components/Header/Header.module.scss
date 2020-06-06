@@ -1,0 +1,11 @@
+@import "../../styles/variables";
+
+.section {
+    background-color: $main-cl;
+    padding: 25px 25px;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

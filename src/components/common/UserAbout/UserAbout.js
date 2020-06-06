@@ -1,19 +1,21 @@
 import React from 'react';
-import s from './UserAbout.module.css';
+import s from './UserAbout.module.scss';
 
 const UserAbout = props => {
-    return(
+    return (
         <div className={s.section}>
-            <h3>
-                I`m {'Bolshakov Dmitry'}
+            <h3 className={s.name}>
+                <span>I`m</span> {props.fullName}
             </h3>
-
-            <div>
-                Social
-            </div>
+            <p className={s.about}>
+                {props.aboutMe || 'User not tell about yourself'}
+            </p>
         </div>
     )
 };
+
+
+
 
 
 

@@ -1,0 +1,13 @@
+@import "../../../styles/variables";
+
+.name {
+  font-size: 25px;
+  & span {
+    font-weight: 300;
+    font-size: 28px;
+  }
+}
+
+.about {
+  margin-top: 10px;
+}

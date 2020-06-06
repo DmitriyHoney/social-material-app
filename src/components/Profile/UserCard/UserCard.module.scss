@@ -1,0 +1,32 @@
+@import "../../../styles/variables";
+
+.section {
+    background-color: #fff;
+    padding: 25px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    box-shadow: $shadow;
+    min-height: 800px;
+}
+
+.avatar {
+
+}
+
+.infoWrap {
+    width: 60%;
+}
+
+.info {
+    &::after {
+        content: '';
+        display: block;
+        height: 1px;
+        width: 100%;
+        background-color: #ccc;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
