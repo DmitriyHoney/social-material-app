@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/social-material-app/static/css/main.8e4fae46.chunk.css",
-    "main.js": "/social-material-app/static/js/main.43f39e8e.chunk.js",
-    "main.js.map": "/social-material-app/static/js/main.43f39e8e.chunk.js.map",
+    "main.js": "/social-material-app/static/js/main.986bf3e4.chunk.js",
+    "main.js.map": "/social-material-app/static/js/main.986bf3e4.chunk.js.map",
     "runtime-main.js": "/social-material-app/static/js/runtime-main.f04d025d.js",
     "runtime-main.js.map": "/social-material-app/static/js/runtime-main.f04d025d.js.map",
     "static/js/2.1de330a2.chunk.js": "/social-material-app/static/js/2.1de330a2.chunk.js",
     "static/js/2.1de330a2.chunk.js.map": "/social-material-app/static/js/2.1de330a2.chunk.js.map",
     "index.html": "/social-material-app/index.html",
-    "precache-manifest.25b8d9f879956634d5a4f244ad28a551.js": "/social-material-app/precache-manifest.25b8d9f879956634d5a4f244ad28a551.js",
+    "precache-manifest.196c0600bfe5898ab3f4c3a8f58eafde.js": "/social-material-app/precache-manifest.196c0600bfe5898ab3f4c3a8f58eafde.js",
     "service-worker.js": "/social-material-app/service-worker.js",
     "static/css/main.8e4fae46.chunk.css.map": "/social-material-app/static/css/main.8e4fae46.chunk.css.map",
     "static/js/2.1de330a2.chunk.js.LICENSE.txt": "/social-material-app/static/js/2.1de330a2.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.f04d025d.js",
     "static/js/2.1de330a2.chunk.js",
     "static/css/main.8e4fae46.chunk.css",
-    "static/js/main.43f39e8e.chunk.js"
+    "static/js/main.986bf3e4.chunk.js"
   ]
 }

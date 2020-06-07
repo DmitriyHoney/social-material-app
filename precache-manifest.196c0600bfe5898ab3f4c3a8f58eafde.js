@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "59fe4e5acadb83bff1844ba7ec0033e2",
+    "revision": "44237a3cdf5854d76b8de7c3ff21edb2",
     "url": "/social-material-app/index.html"
   },
   {
-    "revision": "2060ee5f5d5c2139d357",
+    "revision": "357fb654a153f5e58eb6",
     "url": "/social-material-app/static/css/main.8e4fae46.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/social-material-app/static/js/2.1de330a2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2060ee5f5d5c2139d357",
-    "url": "/social-material-app/static/js/main.43f39e8e.chunk.js"
+    "revision": "357fb654a153f5e58eb6",
+    "url": "/social-material-app/static/js/main.986bf3e4.chunk.js"
   },
   {
     "revision": "a02cc52d6e4a6896f960",
