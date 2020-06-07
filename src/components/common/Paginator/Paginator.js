@@ -1,11 +1,15 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import Pagination from "react-js-pagination";
 import s from './Paginator.module.scss';
 
 
 const Paginator = props => {
 
-    const [activePage, setActivePage] = useState(1);
+    const [activePage, setActivePage] = useState(props.activePage);
+
+    useEffect(() => {
+        setActivePage(props.activePage);
+    }, [props.activePage]);
 
     let handlePageChange = pageNumber => {
         setActivePage(pageNumber);

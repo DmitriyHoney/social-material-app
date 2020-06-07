@@ -13,4 +13,5 @@ export const getUsersList                   = state => state.usersPage.items;
 export const getTotalCount                  = state => state.usersPage.totalCount;
 export const getCountUsers                  = state => state.usersPage.countUsers;
 export const getUsersProcessingSubscribe    = state => state.usersPage.usersProcessingSubscribe;
+export const getCurrentPage                 = state => state.usersPage.currentPage;
 

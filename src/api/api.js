@@ -47,8 +47,8 @@ export const authApi = {
 
 
 export const usersApi = {
-    getUsersPage(pageNumber = 1, countUsers = 7, friend ) {
-        return instance.get(`users/?page=${pageNumber}&count=${countUsers}&friend=${friend}`)
+    getUsersPage(pageNumber, countUsers = "7", friend = "", findUser = "") {
+        return instance.get(`users/?page=${pageNumber}&count=${countUsers}&friend=${friend}&term=${findUser}`)
     },
     getFollowStateOnUser(userId) {
         return instance.get(`follow/${userId}`)

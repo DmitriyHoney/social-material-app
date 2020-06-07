@@ -23,11 +23,16 @@ const UserList = props => {
                 <p>
                     {status || "No status"}
                 </p>
-                <Button 
-                    value={followed ? "Unfollow" : "Follow"} 
-                    onClick={() => toggleFollow(id)} 
-                    disabled={props.usersProcessingSubscribe.some(elem => elem === id)}
-                />
+                {props.myId !== id
+                    && (
+                        <Button 
+                            value={followed ? "Unfollow" : "Follow"} 
+                            onClick={() => toggleFollow(id)} 
+                            disabled={props.usersProcessingSubscribe.some(elem => elem === id)}
+                        />
+                    )
+                }
+                
             </div>
         )
     });

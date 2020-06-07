@@ -23,7 +23,8 @@ import Preloader from "./components/common/Preloader/Preloader";
 let mapStateToProps = state => ({
     isAuth: getAuthStateUserSelector(state),
     initialized: state.authPage.initialized,
-    login: state.authPage.userTechnicalData.login
+    login: state.authPage.userTechnicalData.login,
+    myId: state.authPage.userTechnicalData.id
 });
 
 
@@ -32,7 +33,7 @@ class App extends React.PureComponent {
         this.props.getInitializedStateThunkCallback();
     }
 
-    componentDidUpdate(prevProps, prevState, snapshot) {
+    componentDidUpdate(prevProps, prevState) {
         if (prevProps !== this.props || prevState !== this.state) {
             return true;
         }
@@ -45,9 +46,9 @@ class App extends React.PureComponent {
                 <Header isAuth={this.props.isAuth} login={this.props.login} logoutThunkCallback={this.props.logoutThunkCallback}/>
                 <Sidebar/>
                 <div className="content">
-                    <Route path={'/users'} render={() => <UsersContainer/>}/>
+                    <Route path={'/users'} render={() => <UsersContainer myId={this.props.myId}/>}/>
                     <Route path={'/dialogs'} render={() => <Dialogs/>}/>
-                    <Route path={'/profile/:userId?'} render={() => <ProfileContainer isAuth={this.props.isAuth}/>}/>
+                    <Route path={'/profile/:userId?'} render={() => <ProfileContainer isAuth={this.props.isAuth} />}/>
                     <Route path={'/login'} render={() => <LoginContainer isAuth={this.props.isAuth}/>}/>
                 </div>
                 {/*<Preview/>*/}    
