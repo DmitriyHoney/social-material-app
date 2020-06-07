@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/social-material-app/static/css/main.8e4fae46.chunk.css",
+    "main.js": "/social-material-app/static/js/main.841e1f5e.chunk.js",
+    "main.js.map": "/social-material-app/static/js/main.841e1f5e.chunk.js.map",
+    "runtime-main.js": "/social-material-app/static/js/runtime-main.f04d025d.js",
+    "runtime-main.js.map": "/social-material-app/static/js/runtime-main.f04d025d.js.map",
+    "static/js/2.ee3bfb1d.chunk.js": "/social-material-app/static/js/2.ee3bfb1d.chunk.js",
+    "static/js/2.ee3bfb1d.chunk.js.map": "/social-material-app/static/js/2.ee3bfb1d.chunk.js.map",
+    "index.html": "/social-material-app/index.html",
+    "precache-manifest.733f7a1cd1f20f51d5569edbf070b717.js": "/social-material-app/precache-manifest.733f7a1cd1f20f51d5569edbf070b717.js",
+    "service-worker.js": "/social-material-app/service-worker.js",
+    "static/css/main.8e4fae46.chunk.css.map": "/social-material-app/static/css/main.8e4fae46.chunk.css.map",
+    "static/js/2.ee3bfb1d.chunk.js.LICENSE.txt": "/social-material-app/static/js/2.ee3bfb1d.chunk.js.LICENSE.txt",
+    "static/media/default-user.jpg": "/social-material-app/static/media/default-user.6843ac29.jpg",
+    "static/media/prelodader.svg": "/social-material-app/static/media/prelodader.3a6ebddb.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f04d025d.js",
+    "static/js/2.ee3bfb1d.chunk.js",
+    "static/css/main.8e4fae46.chunk.css",
+    "static/js/main.841e1f5e.chunk.js"
+  ]
+}
